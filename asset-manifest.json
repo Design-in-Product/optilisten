@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/optilisten/static/css/main.e87fcc96.css",
-    "main.js": "/optilisten/static/js/main.30de5afa.js",
+    "main.js": "/optilisten/static/js/main.aab53636.js",
     "static/js/787.1814eca1.chunk.js": "/optilisten/static/js/787.1814eca1.chunk.js",
     "static/media/SFPRODISPLAYMEDIUM.OTF": "/optilisten/static/media/SFPRODISPLAYMEDIUM.b85d841dacb040b84951.OTF",
     "static/media/SFPRODISPLAYBOLD.OTF": "/optilisten/static/media/SFPRODISPLAYBOLD.b1f4d2c69fa808ebca12.OTF",
@@ -15,11 +15,11 @@
     "static/media/Fireworks.png": "/optilisten/static/media/Fireworks.32c542bca1683a561893.png",
     "index.html": "/optilisten/index.html",
     "main.e87fcc96.css.map": "/optilisten/static/css/main.e87fcc96.css.map",
-    "main.30de5afa.js.map": "/optilisten/static/js/main.30de5afa.js.map",
+    "main.aab53636.js.map": "/optilisten/static/js/main.aab53636.js.map",
     "787.1814eca1.chunk.js.map": "/optilisten/static/js/787.1814eca1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e87fcc96.css",
-    "static/js/main.30de5afa.js"
+    "static/js/main.aab53636.js"
   ]
 }
