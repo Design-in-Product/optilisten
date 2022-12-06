@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/optilisten/static/css/main.e87fcc96.css",
-    "main.js": "/optilisten/static/js/main.ed3f9ea8.js",
+    "main.css": "/optilisten/static/css/main.0a87e726.css",
+    "main.js": "/optilisten/static/js/main.636a861c.js",
     "static/js/787.1814eca1.chunk.js": "/optilisten/static/js/787.1814eca1.chunk.js",
     "static/media/SFPRODISPLAYMEDIUM.OTF": "/optilisten/static/media/SFPRODISPLAYMEDIUM.b85d841dacb040b84951.OTF",
     "static/media/SFPRODISPLAYBOLD.OTF": "/optilisten/static/media/SFPRODISPLAYBOLD.b1f4d2c69fa808ebca12.OTF",
@@ -13,13 +13,14 @@
     "static/media/iosLight.png": "/optilisten/static/media/iosLight.8aa87d308d24e403aa45.png",
     "static/media/ios.png": "/optilisten/static/media/ios.5d4728f60e587ef01078.png",
     "static/media/Fireworks.png": "/optilisten/static/media/Fireworks.32c542bca1683a561893.png",
+    "static/media/facebook.png": "/optilisten/static/media/facebook.0d226c61dd366d13cfc1.png",
     "index.html": "/optilisten/index.html",
-    "main.e87fcc96.css.map": "/optilisten/static/css/main.e87fcc96.css.map",
-    "main.ed3f9ea8.js.map": "/optilisten/static/js/main.ed3f9ea8.js.map",
+    "main.0a87e726.css.map": "/optilisten/static/css/main.0a87e726.css.map",
+    "main.636a861c.js.map": "/optilisten/static/js/main.636a861c.js.map",
     "787.1814eca1.chunk.js.map": "/optilisten/static/js/787.1814eca1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e87fcc96.css",
-    "static/js/main.ed3f9ea8.js"
+    "static/css/main.0a87e726.css",
+    "static/js/main.636a861c.js"
   ]
 }
