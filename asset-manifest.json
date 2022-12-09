@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/optilisten/static/css/main.0a87e726.css",
-    "main.js": "/optilisten/static/js/main.bd253587.js",
+    "main.css": "/optilisten/static/css/main.7ae45e5a.css",
+    "main.js": "/optilisten/static/js/main.b93c5bef.js",
     "static/js/787.1814eca1.chunk.js": "/optilisten/static/js/787.1814eca1.chunk.js",
+    "static/media/phones.png": "/optilisten/static/media/phones.e70c7674374a51582004.png",
     "static/media/SFPRODISPLAYMEDIUM.OTF": "/optilisten/static/media/SFPRODISPLAYMEDIUM.b85d841dacb040b84951.OTF",
     "static/media/SFPRODISPLAYBOLD.OTF": "/optilisten/static/media/SFPRODISPLAYBOLD.b1f4d2c69fa808ebca12.OTF",
     "static/media/SFPRODISPLAYREGULAR.OTF": "/optilisten/static/media/SFPRODISPLAYREGULAR.d1f5e6e16dd4f75c3950.OTF",
@@ -15,12 +16,12 @@
     "static/media/Fireworks.png": "/optilisten/static/media/Fireworks.32c542bca1683a561893.png",
     "static/media/facebook.png": "/optilisten/static/media/facebook.0d226c61dd366d13cfc1.png",
     "index.html": "/optilisten/index.html",
-    "main.0a87e726.css.map": "/optilisten/static/css/main.0a87e726.css.map",
-    "main.bd253587.js.map": "/optilisten/static/js/main.bd253587.js.map",
+    "main.7ae45e5a.css.map": "/optilisten/static/css/main.7ae45e5a.css.map",
+    "main.b93c5bef.js.map": "/optilisten/static/js/main.b93c5bef.js.map",
     "787.1814eca1.chunk.js.map": "/optilisten/static/js/787.1814eca1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a87e726.css",
-    "static/js/main.bd253587.js"
+    "static/css/main.7ae45e5a.css",
+    "static/js/main.b93c5bef.js"
   ]
 }
