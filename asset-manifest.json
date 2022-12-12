@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/optilisten/static/css/main.499fb8cf.css",
-    "main.js": "/optilisten/static/js/main.4a21e6ab.js",
+    "main.js": "/optilisten/static/js/main.a0af3f2c.js",
     "static/js/787.1814eca1.chunk.js": "/optilisten/static/js/787.1814eca1.chunk.js",
     "static/media/phones.png": "/optilisten/static/media/phones.e70c7674374a51582004.png",
     "static/media/SFPRODISPLAYMEDIUM.OTF": "/optilisten/static/media/SFPRODISPLAYMEDIUM.b85d841dacb040b84951.OTF",
@@ -14,14 +14,13 @@
     "static/media/Dosis-Bold.ttf": "/optilisten/static/media/Dosis-Bold.1231ff1f0aac5aad68c3.ttf",
     "static/media/iosLight.png": "/optilisten/static/media/iosLight.8aa87d308d24e403aa45.png",
     "static/media/ios.png": "/optilisten/static/media/ios.5d4728f60e587ef01078.png",
-    "static/media/facebook.png": "/optilisten/static/media/facebook.0d226c61dd366d13cfc1.png",
     "index.html": "/optilisten/index.html",
     "main.499fb8cf.css.map": "/optilisten/static/css/main.499fb8cf.css.map",
-    "main.4a21e6ab.js.map": "/optilisten/static/js/main.4a21e6ab.js.map",
+    "main.a0af3f2c.js.map": "/optilisten/static/js/main.a0af3f2c.js.map",
     "787.1814eca1.chunk.js.map": "/optilisten/static/js/787.1814eca1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.499fb8cf.css",
-    "static/js/main.4a21e6ab.js"
+    "static/js/main.a0af3f2c.js"
   ]
 }
