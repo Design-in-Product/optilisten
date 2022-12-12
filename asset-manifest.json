@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/optilisten/static/css/main.2455eeab.css",
-    "main.js": "/optilisten/static/js/main.f0cc2ab0.js",
+    "main.css": "/optilisten/static/css/main.499fb8cf.css",
+    "main.js": "/optilisten/static/js/main.4a21e6ab.js",
     "static/js/787.1814eca1.chunk.js": "/optilisten/static/js/787.1814eca1.chunk.js",
     "static/media/phones.png": "/optilisten/static/media/phones.e70c7674374a51582004.png",
     "static/media/SFPRODISPLAYMEDIUM.OTF": "/optilisten/static/media/SFPRODISPLAYMEDIUM.b85d841dacb040b84951.OTF",
@@ -16,12 +16,12 @@
     "static/media/ios.png": "/optilisten/static/media/ios.5d4728f60e587ef01078.png",
     "static/media/facebook.png": "/optilisten/static/media/facebook.0d226c61dd366d13cfc1.png",
     "index.html": "/optilisten/index.html",
-    "main.2455eeab.css.map": "/optilisten/static/css/main.2455eeab.css.map",
-    "main.f0cc2ab0.js.map": "/optilisten/static/js/main.f0cc2ab0.js.map",
+    "main.499fb8cf.css.map": "/optilisten/static/css/main.499fb8cf.css.map",
+    "main.4a21e6ab.js.map": "/optilisten/static/js/main.4a21e6ab.js.map",
     "787.1814eca1.chunk.js.map": "/optilisten/static/js/787.1814eca1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2455eeab.css",
-    "static/js/main.f0cc2ab0.js"
+    "static/css/main.499fb8cf.css",
+    "static/js/main.4a21e6ab.js"
   ]
 }
