@@ -2,7 +2,7 @@
   "name": "optilisten",
   "homepage": "https://design-in-product.github.io/optilisten",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
