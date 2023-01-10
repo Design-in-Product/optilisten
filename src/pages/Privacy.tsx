@@ -1,22 +1,22 @@
 import { Grid } from "@mui/material";
 import { FC, useEffect, useRef } from "react";
-import { useParams } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { BaseLayout } from "./BaseLayout";
 
 export const PrivacyPage: FC = () => {
   const privacyRef = useRef(null);
   const termsRef = useRef(null);
 
-  const params = useParams();
+  const location = useLocation();
 
   useEffect(() => {
-    if (!params || !params.section) return;
-    if (params.section === "privacy" && privacyRef.current != null) {
+    if (!location || !location.pathname) return;
+    if (location.pathname === "/privacy" && privacyRef.current != null) {
       (privacyRef!.current as any).scrollIntoView();
-    } else if (params.section === "terms" && termsRef.current != null) {
+    } else if (location.pathname === "/terms" && termsRef.current != null) {
       (termsRef!.current as any).scrollIntoView();
     }
-  }, [params]);
+  }, [location]);
   return (
     <BaseLayout>
       <Grid container justifyContent={"center"} className="p-10">
@@ -268,8 +268,8 @@ export const PrivacyPage: FC = () => {
           </a>
 
           <p
-            className="text-3xl font-sfpro-bold pb-6 text-darkBlue"
             ref={termsRef}
+            className="text-3xl font-sfpro-bold pb-6 text-darkBlue w-full"
           >
             Terms and Conditions
           </p>

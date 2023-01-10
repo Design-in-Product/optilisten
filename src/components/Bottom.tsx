@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 import {
   PATH_ABOUT_APP_PREFIX,
   PATH_FEEDBACK,
-  PATH_PRIVACY_PREFIX,
+  PATH_PRIVACY,
   PATH_SETTINGS,
 } from "../routes/paths";
 
@@ -67,7 +67,7 @@ export const Bottom: FC<Props> = () => {
             <Grid item xs={4}>
               <p
                 className="text-gray-500  font-sfpro-regular text-xl cursor-pointer"
-                onClick={() => navigate(`${PATH_PRIVACY_PREFIX}/privacy`)}
+                onClick={() => navigate(PATH_PRIVACY)}
               >
                 Privacy Policy
               </p>
@@ -168,7 +168,7 @@ export const Bottom: FC<Props> = () => {
             <Grid item xs={6}>
               <p
                 className="text-gray-500  font-sfpro-regular text-xl cursor-pointer"
-                onClick={() => navigate(`${PATH_PRIVACY_PREFIX}/privacy`)}
+                onClick={() => navigate(PATH_PRIVACY)}
               >
                 Privacy Policy
               </p>

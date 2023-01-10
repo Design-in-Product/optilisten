@@ -10,7 +10,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import {
   PATH_ABOUT_APP_PREFIX,
   PATH_FEEDBACK,
-  PATH_PRIVACY_PREFIX,
+  PATH_PRIVACY,
   PATH_ROOT,
 } from "../routes/paths";
 
@@ -81,12 +81,12 @@ export const Header: FC<Props> = ({ toggleDrawer }) => {
                 </p>
                 <p
                   className={`mr-6 text-xl font-sfpro-regular text-darkBlue ${
-                    location.pathname.includes(PATH_PRIVACY_PREFIX)
+                    location.pathname.includes(PATH_PRIVACY)
                       ? "underline font-bold"
                       : ""
                   } underline-offset-4 cursor-pointer`}
                   onClick={() => {
-                    navigate(`${PATH_PRIVACY_PREFIX}/privacy`);
+                    navigate(PATH_PRIVACY);
                   }}
                 >
                   Legal

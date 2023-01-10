@@ -17,7 +17,8 @@ import { useNavigate } from "react-router-dom";
 import {
   PATH_ABOUT_APP_PREFIX,
   PATH_FEEDBACK,
-  PATH_PRIVACY_PREFIX,
+  PATH_PRIVACY,
+  PATH_TERMS,
 } from "../routes/paths";
 
 interface MenuItemInfo {
@@ -47,7 +48,7 @@ export const Drawer: FC<Props> = ({ drawerOpened, toggleDrawer }) => {
     {
       text: "Privacy",
       icon: <PolicyIcon />,
-      onClick: () => navigate(`${PATH_PRIVACY_PREFIX}/privacy`),
+      onClick: () => navigate(PATH_PRIVACY),
     },
 
     {
@@ -63,7 +64,7 @@ export const Drawer: FC<Props> = ({ drawerOpened, toggleDrawer }) => {
     {
       text: "Terms Of Service",
       icon: <GavelIcon />,
-      onClick: () => navigate(`${PATH_PRIVACY_PREFIX}/terms`),
+      onClick: () => navigate(PATH_TERMS),
     },
   ];
 
