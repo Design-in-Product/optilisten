@@ -91,12 +91,14 @@ export const Header: FC<Props> = ({ toggleDrawer }) => {
                 >
                   Legal
                 </p>
-                <img
+                <a href="https://apps.apple.com/app/optilisten/id1593948410">
+                  <img
                   src={AppStore}
                   alt="AppStore"
                   width={118}
                   className="cursor-pointer"
-                />
+                    />
+                </a>
               </div>
             </div>
           </Grid>
