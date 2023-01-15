@@ -26,7 +26,7 @@ export const DashboardPage: FC = () => {
                   Listening Training In Your Pocket
                 </p>
 
-                <Button
+                <a href="https://apps.apple.com/app/optilisten/id1593948410"><Button
                   variant="contained"
                   color="info"
                   className="bg-gradient-to-r from-[#78C693] to-[#34A0A4]"
@@ -40,7 +40,7 @@ export const DashboardPage: FC = () => {
                   }}
                 >
                   Try The Free App
-                </Button>
+                  </Button></a>
                 <p className="font-sfpro-medium mt-2 tracking-widest">
                   Unlock the listener within
                 </p>
