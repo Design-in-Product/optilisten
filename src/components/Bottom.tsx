@@ -30,12 +30,14 @@ export const Bottom: FC<Props> = () => {
                   </h1>
                 </div>
 
-                <img
+                <a href="https://apps.apple.com/app/optilisten/id1593948410">
+                  <img
                   src={AppStore}
                   alt="AppStore"
                   width={118}
                   className="cursor-pointer mb-5"
-                />
+                    />
+                </a>
               </div>
               <div className="flex mt-4">
                 <a href="https://www.facebook.com/longskymedia/">
