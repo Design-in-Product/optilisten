@@ -25,7 +25,7 @@ export const PrivacyPage: FC = () => {
             className="text-3xl font-sfpro-bold pb-6 text-darkBlue"
             ref={privacyRef}
           >
-            Legal
+            Privacy
           </p>
           <p className="text-xl font-sfpro-regular pb-6 text-midNight">
             Your privacy is important to us. It is Long Sky Media's policy to
@@ -258,15 +258,17 @@ export const PrivacyPage: FC = () => {
           </p>
           <p className="text-xl font-sfpro-regular pb-6 text-midNight">
             For any questions or concerns regarding your privacy, you may
-            contact us using the following details: OptiListen Support
+            contact us using the following details:
           </p>
-          <a
+          <p className="text-xl font-sfpro-regular pb-6 text-midNight">
+          OptiListen Support: <a
             className="text-xl font-sfpro-regular pb-6 text-blue-500 underline w-full"
             href="mailto:optilisten@longskymedia.com"
           >
             optilisten@longskymedia.com
-          </a>
+          </a></p>
 
+<hr>
           <p
             ref={termsRef}
             className="text-3xl font-sfpro-bold pb-6 text-darkBlue w-full"
@@ -516,7 +518,7 @@ export const PrivacyPage: FC = () => {
           <p className="text-xl font-sfpro-regular pb-6 text-midNight">
             Long Sky welcomes your questions or comments regarding the Terms:
           </p>
-          <p className="text-xl font-sfpro-regular  text-midNight">
+          <p className="text-xl font-sfpro-regular pb-6 text-midNight">
             Email Address:
           </p>
           <a
