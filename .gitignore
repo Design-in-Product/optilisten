@@ -5,6 +5,10 @@
 /.pnp
 .pnp.js
 
+# 11ty
+_site/
+_site_dist/
+
 # testing
 /coverage
 

@@ -1,0 +1,37 @@
+
+@import './exported/_all.scss';
+@import './exported/_font.scss';
+@import './exported/_button.scss';
+
+@import './header';
+@import './home';
+@import './about';
+@import './footer';
+
+.css-1cn3yto {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.width-2-3 {
+  flex-basis: 66.667%;
+}
+@media (max-width: 768px) {
+  .width-2-3 {
+    flex-basis: 95%;
+  }
+}
+.m-2-a {
+  margin: 2rem auto;
+}
+h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
