@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="{{ locale }}" xml:lang="{{ locale }}" dir="ltr">
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta content="en" http-equiv="Content-Language">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+
+    <meta name="description" content="{{ description | safe }}"/>
+    <link rel="apple-touch-icon" href="https://optilisten.com/logo192.png"/>
+    <link rel="manifest" href="https://optilisten.com/manifest.json"/>
+    <title>{{ title | safe }}</title>
+
+    <!-- CSS -->
+    {% block css %}
+      {% set css %}
+      {% include "../../_site_dist/index.css" %}
+      {% endset %}
+      <style>
+        {{css | safe}}
+      </style>
+    {% endblock %}
+
+    {% block js %}
+      {% set js %}
+      {% include "../../_site_dist/built.js" %}
+      {% endset %}
+      <script type="module">
+        {{ js | safe }}
+      </script>
+    {% endblock %}
+  </head>
+  <body>
+
+    {% include "header.njk" %}
+
+    <main id="body-content">
+
+      {% block content %}
+        {{ content | safe }}
+      {% endblock %}
+
+    </main>
+
+    {% include "footer.njk" %}
+
+  </body>
+</html>

@@ -1,0 +1,163 @@
+@media (max-width: 900px) {
+  .css-we0np1 {
+    display: none;
+  }
+}
+@media (min-width: 900px) {
+  .css-15j76c0 {
+    display: none;
+  }
+}
+
+.highlit {
+  text-decoration: underline;
+}
+
+/* closed/open side nav */
+.MuiBackdrop-root.css-919eu4 {
+  opacity: 0;
+  transition: opacity 195ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  visibility: hidden;
+}
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation16.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.css-wf16b5 {
+  transform: translateX(-250px);
+  visibility: hidden;
+}
+.opened.MuiDrawer-root {
+
+  &.css-12snods {
+    visibility: visible;
+  }
+
+  .MuiBackdrop-root.css-919eu4 {
+    opacity: 1;
+    transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    visibility: visible;
+  }
+  .MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation16.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.css-wf16b5 {
+    transform: none;
+    transition: transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;
+    visibility: visible;
+  }
+}
+
+/* hamburger nav */
+.css-12snods {
+  position: fixed;
+  inset: 0px;
+  visibility: hidden;
+  z-index: 1200;
+}
+.css-y28f86 {
+  position: fixed;
+  inset: 0px;
+  z-index: 1200;
+  visibility: hidden;
+}
+.css-vubbuv {
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentcolor;
+  flex-shrink: 0;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+}
+.css-919eu4 {
+  position: fixed;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  inset: 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  -webkit-tap-highlight-color: transparent;
+  z-index: -1;
+}
+
+.css-wf16b5 {
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-shadow: rgb(0 0 0 / 20%) 0px 8px 10px -5px, rgb(0 0 0 / 14%) 0px 16px 24px 2px, rgb(0 0 0 / 12%) 0px 6px 30px 5px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex: 1 0 auto;
+  z-index: 1200;
+  position: fixed;
+  top: 0px;
+  outline: 0px;
+  left: 0px;
+}
+.css-404qdc {
+  width: 250px;
+  padding-top: 32px;
+}
+.css-1ontqvh {
+  list-style: none;
+  margin: 0px;
+  padding: 8px 0px;
+  position: relative;
+}
+.css-1tpp0wj {
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+}
+.css-1uwabd6 {
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0px;
+  border: 0px;
+  margin: 0px;
+  border-radius: 0px;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  appearance: none;
+  color: inherit;
+  display: flex;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+  min-width: 0px;
+  box-sizing: border-box;
+  text-align: left;
+  padding: 8px 16px;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.css-1f8bwsm {
+  min-width: 56px;
+  color: rgba(0, 0, 0, 0.54);
+  flex-shrink: 0;
+  display: inline-flex;
+}
+.css-1tsvksn {
+  flex: 1 1 auto;
+  min-width: 0px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.css-w0pj6f {
+  overflow: hidden;
+  position: absolute;
+  z-index: 0;
+  inset: 0px;
+  border-radius: inherit;
+}

@@ -1,0 +1,22 @@
+footer {
+  .flex-s-b {
+    display: flex;
+    justify-content: space-between;
+    grid-column-gap: 12rem;
+    flex-wrap: wrap;
+    grid-row-gap: 2rem;
+  }
+  .w-90 {
+    padding: 0 2rem;
+  }
+  .p-2 {
+    padding: 2rem;
+  }
+  .site-links a {
+    --tw-text-opacity: 1;
+    color: rgb(107 114 128 / var(--tw-text-opacity));
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-family: SFPro Regular;
+  }
+}

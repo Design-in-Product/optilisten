@@ -1,0 +1,113 @@
+@media (min-width: 1200px) {
+  .css-1s50f5r {
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+  }
+}
+@media (min-width: 900px) {
+  .css-1s50f5r {
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+  }
+}
+@media (min-width: 600px) {
+  .css-1s50f5r {
+    flex-basis: 50%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 50%;
+  }
+}
+.css-1s50f5r {
+  box-sizing: border-box;
+  margin: 0;
+  flex-direction: row;
+  flex-basis: 50%;
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  max-width: 50%;
+}
+
+@media (min-width: 1200px) {
+
+  .css-1ku60y5 {
+    flex-basis: 66.6667%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 66.6667%;
+  }
+}
+@media (min-width: 900px) {
+  .css-1ku60y5 {
+    flex-basis: 66.6667%;
+    -webkit-box-flex: 0;
+    flex-grow: 0;
+    max-width: 66.6667%;
+  }
+}
+.css-1ku60y5 {
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  margin: 0;
+}
+@media (max-width: 719px) {
+  .full-bleed-content {
+    max-width: 90%;
+    flex-basis: 90%;
+  }
+  .full-bleed-accent {
+    display: none;
+  }
+}
+
+
+.accordion {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+  --tw-border-opacity: 1;
+  border-width: 0;
+  border-bottom-color: rgb(52 160 164/var(--tw-border-opacity));
+  border-bottom-width: 2px;
+  width: 100%;
+}
+.accordion-header {
+  --tw-text-opacity: 1;
+  color: rgb(11 24 35/var(--tw-text-opacity));
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-family: SFPro Bold;
+}
+.accordion-toggle {
+  padding-bottom: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.accordion-content {
+  --tw-text-opacity: 1;
+  color: rgb(11 24 35/var(--tw-text-opacity));
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-family: SFPro Regular;
+
+  display: grid;
+  grid-template-rows: 0;
+  transition: .2s;
+  overflow: hidden;
+}
+.accordion-toggle .expand-me { display: inline; }
+.accordion-toggle .contract-me { display: none; }
+.accordion-content .inside {
+  min-height: 0;
+}
+.accordion.expanded .accordion-content {
+  grid-template-rows: 1fr;
+}
+.accordion.expanded .accordion-toggle .expand-me { display: none; }
+.accordion.expanded .accordion-toggle .contract-me { display: inline; }
