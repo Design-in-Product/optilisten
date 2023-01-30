@@ -137,7 +137,7 @@ export const AboutAppPage: FC = () => {
             Brodnitz and Christian Crumlish, who also fancy themselves its first
             customers. The app was designed by Elaine Phong and developed by
             Fractal Labs. The website was designed by Josh Eisenstat. Rebecca
-            Baror provided design direction.
+            Bar provided design direction.
           </p>
         </Grid>
       </Grid>
@@ -169,11 +169,9 @@ export const AboutAppPage: FC = () => {
             </div>
             {menuOpen[0] && (
               <p className="text-midNight font-sfpro-regular text-xl">
-                We were working on our own listening skills, and realized that
-                talk talk was going to break our spirits, so we created a
-                hands-free app that could let us focus less on the buttons and
-                more on trying to be a little more present for the people on our
-                audio and video calls.
+                We were working on our own listening skills, so we created 
+                a hands-free app tod help us focus less on the buttons and 
+                more on trying to be present.
               </p>
             )}
           </div>
@@ -196,8 +194,11 @@ export const AboutAppPage: FC = () => {
             </div>
             {menuOpen[1] && (
               <p className="text-midNight font-sfpro-regular text-xl">
-                Yes -- that way the app hears that you are talking but not the
-                other folks on the call.
+                Yes &mdash; that way the app hears that you are talking 
+                and doesn’t hear the other folks on the call. This lets 
+                the app give you a real-time sense of how much you’re 
+                talking and how much you’re listening. With this info,
+                you’ll be better equipped to work on and improve your skills.
               </p>
             )}
           </div>
@@ -220,7 +221,7 @@ export const AboutAppPage: FC = () => {
             </div>
             {menuOpen[2] && (
               <p className="text-midNight font-sfpro-regular text-xl">
-                It doesn't -- no login, no data. All data is kept on your phone.
+                It doesn't &mdash; no login, no data. All data is kept on your phone.
               </p>
             )}
           </div>
@@ -243,8 +244,8 @@ export const AboutAppPage: FC = () => {
             </div>
             {menuOpen[3] && (
               <p className="text-midNight font-sfpro-regular text-xl">
-                Better, hopefully. But it's a journey! :-) Be, hear, now, good
-                people!
+                Hopefully? It's a journey! :-) But we’re happy to be on the path. 
+                Be hear now, good people!
               </p>
             )}
           </div>
