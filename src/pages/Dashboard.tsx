@@ -23,7 +23,7 @@ export const DashboardPage: FC = () => {
                   </h1>
                 </div>
                 <p className="font-sfpro-regular mb-10 tracking-widest">
-                  Listening Training In Your Pocket
+                  Unlock the listener within
                 </p>
 
                 <a href="https://apps.apple.com/app/optilisten/id1593948410"><Button
@@ -39,11 +39,13 @@ export const DashboardPage: FC = () => {
                     paddingRight: 8,
                   }}
                 >
-                  Try The Free App
+                  Try the Free App
                   </Button></a>
+<!--
                 <p className="font-sfpro-medium mt-2 tracking-widest">
                   Unlock the listener within
                 </p>
+-->
               </div>
             </div>
           </Grid>
@@ -61,12 +63,12 @@ export const DashboardPage: FC = () => {
         <Grid item md={8} container>
           <Grid xs={12} item className="bg-white p-6 rounded-xl">
             <p className="text-midNight font-sfpro-regular text-xl ">
-              OptiListen is an easy to use app, created by and for folks who
+              OptiListen is an easy-to-use app created by and for folks who
               would like to listen a little more.
             </p>
             <p className="text-midNight font-sfpro-regular text-xl mt-4">
               Put your headphones on, start a session, set a goal, and see how
-              you do. With OptiListen, you can track your results over time, and
+              you do. With OptiListen you can track your results over time and
               build your listening skills, one audio or video call at a time.
             </p>
 
