@@ -41,11 +41,10 @@ export const DashboardPage: FC = () => {
                 >
                   Try the Free App
                   </Button></a>
-<!--
+
                 <p className="font-sfpro-medium mt-2 tracking-widest">
-                  Unlock the listener within
                 </p>
--->
+
               </div>
             </div>
           </Grid>
