@@ -268,7 +268,7 @@ export const PrivacyPage: FC = () => {
             optilisten@longskymedia.com
           </a></p>
 
-<hr>
+          <br />
           <p
             ref={termsRef}
             className="text-3xl font-sfpro-bold pb-6 text-darkBlue w-full"

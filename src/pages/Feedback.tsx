@@ -16,13 +16,19 @@ import LinkedIn from "../assets/images/LinkedIn.png";
 import Facebook from "../assets/images/Facebook_light.png";
 import { Button, Grid, Hidden, TextField } from "@mui/material";
 
+const GoogleFormPostURL =
+  "https://docs.google.com/forms/u/0/d/e/1FAIpQLSfyiJ6Ju-kvTPc4Af194PuGSCpypBuQco7FcOAhp9dK2LN5dQ/formResponse?pli=1&embedded=true";
+const FeedbackTypeKey = "entry.881500903";
+const DetailsKey = "entry.1459802871";
+const EmailKey = "emailAddress";
+
 export const FeedbackPage: FC = () => {
   const [email, setEmail] = useState<string>("");
   const [details, setDetails] = useState<string>("");
 
   return (
     <BaseLayout>
-      <div>
+      <form action={GoogleFormPostURL}>
         <Grid
           container
           justifyContent={"center"}
@@ -113,6 +119,7 @@ export const FeedbackPage: FC = () => {
                   type="text"
                   required
                   label="Email"
+                  name={EmailKey}
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   endAdornment={
@@ -154,7 +161,7 @@ export const FeedbackPage: FC = () => {
               <RadioGroup
                 aria-labelledby="demo-radio-buttons-group-label"
                 defaultValue="female"
-                name="radio-buttons-group"
+                name={FeedbackTypeKey}
               >
                 <FormControlLabel
                   value="loveIt"
@@ -226,6 +233,7 @@ export const FeedbackPage: FC = () => {
               <TextField
                 id="standard-multiline-flexible"
                 label="Details"
+                name={DetailsKey}
                 multiline
                 rows={4}
                 fullWidth
@@ -261,6 +269,7 @@ export const FeedbackPage: FC = () => {
               <Button
                 variant="contained"
                 color="info"
+                type="submit"
                 className="bg-gradient-to-r from-[#78C693] to-[#34A0A4]"
                 sx={{
                   borderRadius: 30,
@@ -276,7 +285,7 @@ export const FeedbackPage: FC = () => {
             </div>
           </Grid>
         </Grid>
-      </div>
+      </form>
     </BaseLayout>
   );
 };
