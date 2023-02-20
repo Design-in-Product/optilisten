@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.457e1cf6.css",
-    "main.js": "/static/js/main.fb1ff11c.js",
+    "main.js": "/static/js/main.8e811aeb.js",
     "static/js/787.1814eca1.chunk.js": "/static/js/787.1814eca1.chunk.js",
     "static/media/phones.png": "/static/media/phones.e70c7674374a51582004.png",
     "static/media/SFPRODISPLAYMEDIUM.OTF": "/static/media/SFPRODISPLAYMEDIUM.b85d841dacb040b84951.OTF",
@@ -16,11 +16,11 @@
     "static/media/ios.png": "/static/media/ios.5d4728f60e587ef01078.png",
     "index.html": "/index.html",
     "main.457e1cf6.css.map": "/static/css/main.457e1cf6.css.map",
-    "main.fb1ff11c.js.map": "/static/js/main.fb1ff11c.js.map",
+    "main.8e811aeb.js.map": "/static/js/main.8e811aeb.js.map",
     "787.1814eca1.chunk.js.map": "/static/js/787.1814eca1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.457e1cf6.css",
-    "static/js/main.fb1ff11c.js"
+    "static/js/main.8e811aeb.js"
   ]
 }
