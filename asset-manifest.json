@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.457e1cf6.css",
-    "main.js": "/static/js/main.2a348a52.js",
+    "main.js": "/static/js/main.fb1ff11c.js",
     "static/js/787.1814eca1.chunk.js": "/static/js/787.1814eca1.chunk.js",
     "static/media/phones.png": "/static/media/phones.e70c7674374a51582004.png",
     "static/media/SFPRODISPLAYMEDIUM.OTF": "/static/media/SFPRODISPLAYMEDIUM.b85d841dacb040b84951.OTF",
     "static/media/SFPRODISPLAYBOLD.OTF": "/static/media/SFPRODISPLAYBOLD.b1f4d2c69fa808ebca12.OTF",
     "static/media/SFPRODISPLAYREGULAR.OTF": "/static/media/SFPRODISPLAYREGULAR.d1f5e6e16dd4f75c3950.OTF",
-    "static/media/HappyFireworks.png": "/static/media/HappyFireworks.fd842955cead84ca3300.png",
     "static/media/Fireworks.png": "/static/media/Fireworks.26cf7f6f677a13e34f35.png",
+    "static/media/HappyFireworks.png": "/static/media/HappyFireworks.6741a4c01753a8748642.png",
     "static/media/Dosis-Regular.ttf": "/static/media/Dosis-Regular.16c5afafe71efb210033.ttf",
     "static/media/Dosis-Medium.ttf": "/static/media/Dosis-Medium.f8d877a1b41eafb64fe7.ttf",
     "static/media/Dosis-Bold.ttf": "/static/media/Dosis-Bold.1231ff1f0aac5aad68c3.ttf",
@@ -16,11 +16,11 @@
     "static/media/ios.png": "/static/media/ios.5d4728f60e587ef01078.png",
     "index.html": "/index.html",
     "main.457e1cf6.css.map": "/static/css/main.457e1cf6.css.map",
-    "main.2a348a52.js.map": "/static/js/main.2a348a52.js.map",
+    "main.fb1ff11c.js.map": "/static/js/main.fb1ff11c.js.map",
     "787.1814eca1.chunk.js.map": "/static/js/787.1814eca1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.457e1cf6.css",
-    "static/js/main.2a348a52.js"
+    "static/js/main.fb1ff11c.js"
   ]
 }
