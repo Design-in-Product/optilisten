@@ -24,7 +24,7 @@ const EmailKey = "emailAddress";
 export const FeedbackPage: FC = () => {
   const [email, setEmail] = useState<string>("");
   const [details, setDetails] = useState<string>("");
-  const [feedback, setFeedback] = useState<string>("Love It!");
+  const [feedback, setFeedback] = useState<string>("");
 
   return (
     <BaseLayout>
