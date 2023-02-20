@@ -9,7 +9,6 @@ import EmailIcon from "@mui/icons-material/Email";
 import Radio from "@mui/material/Radio";
 import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
-import FormLabel from "@mui/material/FormLabel";
 
 import Fireworks from "../assets/images/HappyFireworks.png";
 import LinkedIn from "../assets/images/LinkedIn.png";
@@ -25,6 +24,7 @@ const EmailKey = "emailAddress";
 export const FeedbackPage: FC = () => {
   const [email, setEmail] = useState<string>("");
   const [details, setDetails] = useState<string>("");
+  const [feedback, setFeedback] = useState<string>("Love It!");
 
   return (
     <BaseLayout>
@@ -145,81 +145,73 @@ export const FeedbackPage: FC = () => {
           className="pb-10 pl-10 mt-4 z-20 relative"
         >
           <Grid item md={8} container>
-            <FormControl>
-              <FormLabel
-                id="demo-radio-buttons-group-label"
-                className="mb-2 text-midNight"
+            <p id={FeedbackTypeKey} className="mb-2 text-midNight w-full">
+              Type of Feedback
+            </p>
+            <input hidden value={feedback} name={FeedbackTypeKey} />
+            <RadioGroup
+              aria-labelledby={FeedbackTypeKey}
+              defaultValue="Love It!"
+              onChange={(e) => {
+                setFeedback(e.target.value);
+              }}
+            >
+              <FormControlLabel
+                value="Love It!"
+                control={<Radio />}
+                label="Love It!"
+                className="text-midNight"
                 sx={{
-                  color: "#0B1823",
-                  "&.MuiFormLabel-root": {
+                  "& .MuiFormControlLabel-label": {
                     letterSpacing: "0.025em",
                   },
                 }}
-              >
-                Type of Feedback
-              </FormLabel>
-              <RadioGroup
-                aria-labelledby="demo-radio-buttons-group-label"
-                defaultValue="female"
-                name={FeedbackTypeKey}
-              >
-                <FormControlLabel
-                  value="loveIt"
-                  control={<Radio />}
-                  label="Love It!"
-                  className="text-midNight"
-                  sx={{
-                    "& .MuiFormControlLabel-label": {
-                      letterSpacing: "0.025em",
-                    },
-                  }}
-                />
-                <FormControlLabel
-                  value="bugReport"
-                  control={<Radio />}
-                  label="Bug Report"
-                  className="text-midNight"
-                  sx={{
-                    "& .MuiFormControlLabel-label": {
-                      letterSpacing: "0.025em",
-                    },
-                  }}
-                />
-                <FormControlLabel
-                  value="question"
-                  control={<Radio />}
-                  label="Question"
-                  className="text-midNight"
-                  sx={{
-                    "& .MuiFormControlLabel-label": {
-                      letterSpacing: "0.025em",
-                    },
-                  }}
-                />
-                <FormControlLabel
-                  value="feedback"
-                  control={<Radio />}
-                  label="Feedback"
-                  className="text-midNight"
-                  sx={{
-                    "& .MuiFormControlLabel-label": {
-                      letterSpacing: "0.025em",
-                    },
-                  }}
-                />
-                <FormControlLabel
-                  value="other"
-                  control={<Radio />}
-                  label="Other"
-                  className="text-midNight"
-                  sx={{
-                    "& .MuiFormControlLabel-label": {
-                      letterSpacing: "0.025em",
-                    },
-                  }}
-                />
-              </RadioGroup>
-            </FormControl>
+              />
+              <FormControlLabel
+                value="Bug Report"
+                control={<Radio />}
+                label="Bug Report"
+                className="text-midNight"
+                sx={{
+                  "& .MuiFormControlLabel-label": {
+                    letterSpacing: "0.025em",
+                  },
+                }}
+              />
+              <FormControlLabel
+                value="Question"
+                control={<Radio />}
+                label="Question"
+                className="text-midNight"
+                sx={{
+                  "& .MuiFormControlLabel-label": {
+                    letterSpacing: "0.025em",
+                  },
+                }}
+              />
+              <FormControlLabel
+                value="Feedback"
+                control={<Radio />}
+                label="Feedback"
+                className="text-midNight"
+                sx={{
+                  "& .MuiFormControlLabel-label": {
+                    letterSpacing: "0.025em",
+                  },
+                }}
+              />
+              <FormControlLabel
+                value="Other"
+                control={<Radio />}
+                label="Other"
+                className="text-midNight"
+                sx={{
+                  "& .MuiFormControlLabel-label": {
+                    letterSpacing: "0.025em",
+                  },
+                }}
+              />
+            </RadioGroup>
           </Grid>
         </Grid>
 
