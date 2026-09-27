@@ -23,7 +23,7 @@ export const DashboardPage: FC = () => {
                   </h1>
                 </div>
                 <p className="font-sfpro-regular mb-10 tracking-widest">
-                  Unlock the listener within
+                  A rehearsal for listening
                 </p>
 
                 <a href="https://apps.apple.com/app/optilisten/id1593948410"><Button

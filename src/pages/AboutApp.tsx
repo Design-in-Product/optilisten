@@ -50,9 +50,7 @@ export const AboutAppPage: FC = () => {
                 About OptiListen
               </p>
               <p className="text-white font-sfpro-regular text-xl">
-                OptiListen helps you get better at listening. Quickly set goals
-                and track how much time you’re speaking on video and audio
-                calls. Unlock the listener within.{" "}
+                OptiListen is a rehearsal loop for listening: set a ceiling before a conversation, watch a single quiet number while it happens, and reflect afterward on how present you were.{" "}
               </p>
               <div className="flex mt-4">
                 <a href="https://www.facebook.com/longskymedia/">
@@ -87,9 +85,7 @@ export const AboutAppPage: FC = () => {
                     About OptiListen
                   </p>
                   <p className="text-white font-sfpro-regular text-xl">
-                    OptiListen helps you get better at listening. Quickly set
-                    goals and track how much time you’re speaking on video and
-                    audio calls. Unlock the listener within.{" "}
+                    OptiListen is a rehearsal loop for listening: set a ceiling before a conversation, watch a single quiet number while it happens, and reflect afterward on how present you were.{" "}
                   </p>
                   <div className="flex mt-4">
                     <a href="https://www.facebook.com/longskymedia/">
