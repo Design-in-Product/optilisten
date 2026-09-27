@@ -42,8 +42,21 @@ export const PrivacyPage: FC = () => {
             third-party content, you should read their posted privacy policy
             information about how they collect and use personal information.
             This Privacy Policy does not apply to any of your activities after
-            you leave our app. This policy is effective as of 4 July 2022. Last
-            updated: 4 July 2022
+            you leave our app. This policy is effective as of 27 September
+            2026. Last updated: 27 September 2026
+          </p>
+          <p className="text-2xl font-sfpro-bold pb-6 text-darkBlue">
+            How the Microphone Is Used
+          </p>
+          <p className="text-xl font-sfpro-regular pb-6 text-midNight">
+            OptiListen listens through your device's own microphone while a
+            practice session is running. Roughly ten times a second it computes
+            a loudness (RMS) value for that instant, classifies it as you
+            speaking, someone else speaking, or silence, and discards it. No
+            audio is ever recorded, saved to disk, transcribed, or transmitted.
+            There is no speech-recognition framework in the app and no network
+            code of any kind — a practice, and any calibration you run before
+            one, stays only in this app, on this device.
           </p>
           <p className="text-2xl font-sfpro-bold pb-6 text-darkBlue">
             We Collect No Personal Information
@@ -528,7 +541,7 @@ export const PrivacyPage: FC = () => {
             optilisten@longskymedia.com
           </a>
           <p className="text-xl font-sfpro-regular pt-6 text-midNight">
-            Effective as of November 01, 2022
+            Effective as of September 27, 2026
           </p>
         </Grid>
       </Grid>
