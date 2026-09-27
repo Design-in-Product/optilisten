@@ -194,11 +194,7 @@ export const AboutAppPage: FC = () => {
             </div>
             {menuOpen[1] && (
               <p className="text-midNight font-sfpro-regular text-xl">
-                Yes &mdash; that way the app hears that you are talking 
-                and doesn’t hear the other folks on the call. This lets 
-                the app give you a real-time sense of how much you’re 
-                talking and how much you’re listening. With this info,
-                you’ll be better equipped to work on and improve your skills.
+                No &mdash; the opposite. OptiListen listens to the room through your phone&apos;s own microphone: your voice is closer and louder than anyone else&apos;s, and that difference is how it tells you apart. Headphones send the other person&apos;s voice straight to your ear instead of the room, so the microphone never hears it, and the app will tell you it can&apos;t give you a reliable number rather than guessing one.
               </p>
             )}
           </div>

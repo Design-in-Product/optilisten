@@ -66,9 +66,11 @@ export const DashboardPage: FC = () => {
               would like to listen a little more.
             </p>
             <p className="text-midNight font-sfpro-regular text-xl mt-4">
-              Put your headphones on, start a session, set a goal, and see how
-              you do. With OptiListen you can track your results over time and
-              build your listening skills, one audio or video call at a time.
+              Set a ceiling before a conversation, leave your phone face up
+              beside you, and see where you stand while you can still do
+              something about it. OptiListen listens to the room through
+              your own phone&apos;s microphone &mdash; no headphones, no
+              account, and nothing is ever recorded.
             </p>
 
             <p className="text-midNight font-sfpro-regular text-xl mt-4 ">
