@@ -190,7 +190,7 @@ export const AboutAppPage: FC = () => {
             </div>
             {menuOpen[1] && (
               <p className="text-midNight font-sfpro-regular text-xl">
-                No &mdash; the opposite. OptiListen listens to the room through your phone&apos;s own microphone: your voice is closer and louder than anyone else&apos;s, and that difference is how it tells you apart. Headphones send the other person&apos;s voice straight to your ear instead of the room, so the microphone never hears it, and the app will tell you it can&apos;t give you a reliable number rather than guessing one.
+                Yes &mdash; it&apos;s made for calls with headphones. With the other person&apos;s voice in your ears instead of the room, your phone&apos;s microphone hears only you, so the number is simply how much of the time you&apos;re talking. Set the phone face up beside you. In person it can&apos;t tell you from the other person, so it isn&apos;t built for that.
               </p>
             )}
           </div>
