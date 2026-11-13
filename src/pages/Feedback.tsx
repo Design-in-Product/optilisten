@@ -63,7 +63,7 @@ export const FeedbackPage: FC = () => {
                       About OptiListen
                     </p>
                     <p className="text-white font-sfpro-regular text-xl">
-                      OptiListen is a rehearsal loop for listening: set a ceiling before a conversation, watch a single quiet number while it happens, and reflect afterward on how present you were.{" "}
+                      OptiListen helps you prepare to listen with intent: set a ceiling on your talking before a call, keep one quiet number beside you while it happens, and rate how present you were afterward.{" "}
                     </p>
                     <div className="flex mt-4">
                       <a href="https://www.facebook.com/longskymedia/">
